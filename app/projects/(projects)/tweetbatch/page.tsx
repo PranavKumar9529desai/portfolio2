@@ -1,4 +1,5 @@
 "use client";
+import { useState } from "react";
 import {
     SiTailwindcss,
     SiCloudflare,
@@ -33,6 +34,48 @@ const keyFeatures = [
     "Edge performance — deployed to Cloudflare's global network for sub-second latency from anywhere in the world.",
     "Landing page built with Astro, GSAP, and Tailwind CSS featuring 3D-like animations and scroll-driven storytelling.",
 ];
+
+const videos = [
+    {
+        label: "Landing Page",
+        url: "https://player.cloudinary.com/embed/?cloud_name=db4bbyw44&public_id=tweetbatch-landinag-page_xql3lx",
+    },
+    {
+        label: "Dashboard",
+        url: "https://player.cloudinary.com/embed/?cloud_name=db4bbyw44&public_id=tweetbatch-fr_opk6hp",
+    },
+];
+
+function VideoShowcase() {
+    const [active, setActive] = useState(0);
+    return (
+        <div className="space-y-3">
+            <div className="flex gap-2">
+                {videos.map((v, i) => (
+                    <button
+                        key={v.label}
+                        onClick={() => setActive(i)}
+                        className={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${active === i
+                                ? "bg-primary text-white"
+                                : "bg-background-secondary text-foreground-secondary hover:text-foreground"
+                            }`}
+                    >
+                        {v.label}
+                    </button>
+                ))}
+            </div>
+            <div className="relative w-full rounded-xl overflow-hidden bg-background-secondary aspect-video">
+                <iframe
+                    key={videos[active].url}
+                    src={videos[active].url}
+                    className="absolute inset-0 w-full h-full"
+                    allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+                    allowFullScreen
+                />
+            </div>
+        </div>
+    );
+}
 
 export default function TweetBatchPage() {
     return (
@@ -73,6 +116,8 @@ export default function TweetBatchPage() {
                 combines a futuristic UI with robust scheduling capabilities, ensuring
                 your content reaches your audience at the perfect moment.
             </p>
+
+            <VideoShowcase />
 
             <div className="overflow-x-auto -mx-4 px-4 md:overflow-visible md:px-0">
                 <Stack technologies={technologies} />

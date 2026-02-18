@@ -18,3 +18,14 @@ Projects :
 - **BitTorrent Client**: https://github.com/PranavKumar9529desai/BitTorrent-Client
 - **Task Manager CLI**: https://github.com/PranavKumar9529desai/Task-Manager-CLI
 - **Voice Transcription CLI**: https://github.com/PranavKumar9529desai/Voice-Transcription-CLI
+
+
+video link 
+1) Cropia 
+  cropia-dashboard : https://player.cloudinary.com/embed/?cloud_name=db4bbyw44&public_id=Cropia_-fr_skyqsx
+  cropia-lading-page : https://player.cloudinary.com/embed/?cloud_name=db4bbyw44&public_id=cropia-landing-page_et1fsg
+
+
+2) TweetBatch 
+   tweetbatchj-landing : https://player.cloudinary.com/embed/?cloud_name=db4bbyw44&public_id=tweetbatch-landinag-page_xql3lx
+   tweetbatch-dasboard : https://player.cloudinary.com/embed/?cloud_name=db4bbyw44&public_id=tweetbatch-fr_opk6hp

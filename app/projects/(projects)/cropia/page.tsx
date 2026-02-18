@@ -1,4 +1,5 @@
 "use client";
+import { useState } from "react";
 import {
     SiMongodb,
     SiPrisma,
@@ -34,6 +35,48 @@ const keyFeatures = [
     "Cropia Assistant — a conversational AI chatbot for weather forecasts, scan results, and agronomy advice.",
     "Astro-powered landing page achieving a perfect 100/100 PageSpeed score with zero JS runtime overhead.",
 ];
+
+const videos = [
+    {
+        label: "Landing Page",
+        url: "https://player.cloudinary.com/embed/?cloud_name=db4bbyw44&public_id=cropia-landing-page_et1fsg",
+    },
+    {
+        label: "Dashboard",
+        url: "https://player.cloudinary.com/embed/?cloud_name=db4bbyw44&public_id=Cropia_-fr_skyqsx",
+    },
+];
+
+function VideoShowcase() {
+    const [active, setActive] = useState(0);
+    return (
+        <div className="space-y-3">
+            <div className="flex gap-2">
+                {videos.map((v, i) => (
+                    <button
+                        key={v.label}
+                        onClick={() => setActive(i)}
+                        className={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${active === i
+                                ? "bg-primary text-white"
+                                : "bg-background-secondary text-foreground-secondary hover:text-foreground"
+                            }`}
+                    >
+                        {v.label}
+                    </button>
+                ))}
+            </div>
+            <div className="relative w-full rounded-xl overflow-hidden bg-background-secondary aspect-video">
+                <iframe
+                    key={videos[active].url}
+                    src={videos[active].url}
+                    className="absolute inset-0 w-full h-full"
+                    allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+                    allowFullScreen
+                />
+            </div>
+        </div>
+    );
+}
 
 export default function CropiaPage() {
     return (
@@ -77,6 +120,8 @@ export default function CropiaPage() {
                 using Turborepo, Bun, and Hono, it leverages Google&apos;s Gemini 2.5 Flash
                 Lite for speed and accuracy in low-resource environments.
             </p>
+
+            <VideoShowcase />
 
             <div className="overflow-x-auto -mx-4 px-4 md:overflow-visible md:px-0">
                 <Stack technologies={technologies} />
