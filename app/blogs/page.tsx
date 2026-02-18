@@ -3,8 +3,8 @@ import BreadCrumbs from '../components/BreadCrums';
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blogs - Shivam Kumar",
-  description: "Blogs by Shivam Kumar",
+  title: "Blogs - Pranavkumar Desai",
+  description: "Blogs by Pranavkumar Desai",
 };
 
 function page() {

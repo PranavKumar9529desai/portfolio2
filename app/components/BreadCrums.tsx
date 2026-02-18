@@ -15,7 +15,7 @@ function BreadCrumbs({ path }: BreadCrumbsProps) {
         href="/"
         className="text-foreground-secondary hover:text-primary-hover transition-colors flex items-center gap-2"
       >
-        Shivam
+        Pranavkumar
       </TransitionLink>
 
       {pathSegments.map((segment, index) => {

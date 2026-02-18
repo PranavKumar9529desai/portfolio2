@@ -8,8 +8,8 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 const sendMail = async (name: string, email: string, message: string) => {
   try {
     const { data, error } = await resend.emails.send({
-      from: `${name} <portfolio@shivamk.tech>`,
-      to: ["skumarshivam50@gmail.com", "shivamkg29@gmail.com"],
+      from: `${name} <portfolio@pranavkumar.dev>`,
+      to: ["dpranv7745@gmail.com"],
       subject: "Hello world!",
       react: EmailTemplate({ name, email, message }) as React.ReactNode,
     });

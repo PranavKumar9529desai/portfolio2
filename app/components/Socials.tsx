@@ -1,31 +1,26 @@
 import React from 'react'
-import { FiGithub, FiLinkedin, FiInstagram, FiTwitter, FiMail } from "react-icons/fi";
+import { FiGithub, FiLinkedin, FiTwitter, FiMail } from "react-icons/fi";
 import { cn } from '../utils/utils';
 
 
 const socials = [
   {
-    href: "https://github.com/Shivam29k",
+    href: "https://github.com/PranavKumar9529desai",
     icon: FiGithub,
     title: "GitHub",
   },
   {
-    href: "https://linkedin.com/in/shivamkrandom",
+    href: "https://www.linkedin.com/in/pranavkumar-desai-b27b8a252/",
     icon: FiLinkedin,
     title: "LinkedIn",
   },
   {
-    href: "https://www.instagram.com/_shivam_k29",
-    icon: FiInstagram,
-    title: "Instagram",
-  },
-  {
-    href: "https://x.com/ShivamKrandom",
+    href: "https://x.com/pranavdesa1549",
     icon: FiTwitter,
     title: "Twitter",
   },
   {
-    href: "mailto:skumarshivam50@gmail.com",
+    href: "mailto:dpranv7745@gmail.com",
     icon: FiMail,
     title: "Email",
   },

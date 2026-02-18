@@ -36,7 +36,7 @@ export const EmailTemplate: React.FC<EmailTemplateProps> = ({
         }}>
           New Message from {name}
         </h1>
-        
+
         <div style={{
           marginBottom: '1.25rem',
           display: 'flex',
@@ -89,7 +89,7 @@ export const EmailTemplate: React.FC<EmailTemplateProps> = ({
           fontSize: '0.875rem',
           textAlign: 'center'
         }}>
-          Sent from shivamk.tech portfolio
+          Sent from Pranavkumar&apos;s portfolio
         </footer>
       </div>
     </div>

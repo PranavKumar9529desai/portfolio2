@@ -9,8 +9,8 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Shivam",
-  description: "Here for the vibes and deep conversations.",
+  title: "Pranavkumar Desai",
+  description: "4th year CS student building full-stack products with AI, edge computing, and modern web technologies.",
   icons: {
     icon: "/icon.svg",
   }

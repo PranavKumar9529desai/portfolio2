@@ -5,7 +5,7 @@ function Footer() {
     <footer className="bg-background text-foreground-secondary py-10 ">
       <div className="container mx-auto px-4">
         <p className="text-sm text-center">
-          &copy; {new Date().getFullYear()} Shivam. All rights reserved.
+          &copy; {new Date().getFullYear()} Pranavkumar. All rights reserved.
         </p>
       </div>
     </footer>

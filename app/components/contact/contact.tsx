@@ -2,7 +2,6 @@
 import { useEffect, useState } from "react";
 import FormInput from "@/app/components/Input";
 import { ChevronRight } from "lucide-react";
-import { Turnstile } from "next-turnstile";
 import { submitContactForm } from "./contact.action";
 
 const DrawOutlineButton = ({
@@ -24,7 +23,6 @@ const DrawOutlineButton = ({
 };
 
 export default function Contact() {
-  const [turnstileToken, setTurnstileToken] = useState<string>("");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [formStatus, setFormStatus] = useState<{
     type: "success" | "error" | null;
@@ -32,19 +30,8 @@ export default function Contact() {
   }>({ type: null, message: "" });
 
   useEffect(() => {
-    document.title = "Contact - Shivam Kumar";
+    document.title = "Contact - Pranavkumar Desai";
   }, []);
-
-  const siteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
-
-  if (!siteKey) {
-    console.error("Turnstile site key is not configured");
-    return (
-      <div className="text-red-500">
-        Error: Turnstile is not properly configured
-      </div>
-    );
-  }
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -53,15 +40,10 @@ export default function Contact() {
     setFormStatus({ type: null, message: "" });
 
     try {
-      if (!turnstileToken) {
-        throw new Error("Please complete the Turnstile verification");
-      }
-
       const formData = new FormData(form);
-      formData.append("turnstileToken", turnstileToken);
-      
+
       const response = await submitContactForm(formData);
-      
+
       if (response.success) {
         setFormStatus({
           type: "success",
@@ -119,19 +101,12 @@ export default function Contact() {
           <div className="flex flex-col items-end gap-4">
             {formStatus.message && (
               <p
-                className={`text-sm ${
-                  formStatus.type === "success" ? "text-green-500" : "text-red-500"
-                }`}
+                className={`text-sm ${formStatus.type === "success" ? "text-green-500" : "text-red-500"
+                  }`}
               >
                 {formStatus.message}
               </p>
             )}
-            <Turnstile
-              siteKey={siteKey}
-              onVerify={(token: string) => setTurnstileToken(token)}
-              onExpire={() => setTurnstileToken("")}
-              id="my-turnstile"
-            />
             <DrawOutlineButton type="submit" disabled={isSubmitting}>
               <div className="flex items-center gap-2">
                 {isSubmitting ? "Sending..." : "Send Message"}

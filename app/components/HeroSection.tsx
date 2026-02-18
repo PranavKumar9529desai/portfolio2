@@ -1,12 +1,12 @@
 import Image from "next/image";
-import pfp from "@/public/pfp-bg.png";
+import pfp from "@/public/pranav.png";
 import List from "./List";
 import Socials from "./Socials";
 const facts = [
-  "Building cool stuff on the internet is my thing.",
-  "Always curious, always learning—got big goals to chase.",
-  "Mountains? Yeah, that's my kind of trip.",
-  "Love a good game of chess—let's play!",
+  "Love exploring new stacks — always picking up the latest frameworks and tools.",
+  "Die-hard Linux user — tried Arch, OmarchY, CachyOS, and almost every distro out there.",
+  "Kabaddi player — there's nothing like a good raid on the mat.",
+  "Currently building Cropia, TweetBatch, and GymNavigator.",
 ];
 
 export default function HeroSection() {
@@ -17,13 +17,14 @@ export default function HeroSection() {
           <div className="w-full md:w-4/6">
             <div className="space-y-4">
               <h1 className="text-2xl md:text-3xl font-bold text-foreground text-center md:text-left">
-                Hello! I&apos;m Shivam{" "}
+                Hello! I&apos;m Pranavkumar{" "}
                 <span className="inline-block animate-wave">👋</span>
               </h1>
               <p className="text-base md:text-lg text-foreground-secondary leading-relaxed text-center md:text-left">
-                Self-taught developer and Computer Science student with an AI/ML
-                minor. Building dbai.live and itsyour.space, and I&apos;ve
-                helped two startups turn their ideas into real products.
+                4th year Computer Science student at Lovely Professional
+                University. Building AI-powered platforms and full-stack
+                products — from crop health detection to tweet scheduling
+                and gym management.
               </p>
             </div>
 
