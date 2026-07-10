@@ -1,5 +1,5 @@
 import { JSX } from "react";
-import { FaReact, FaPython, FaRust, FaDatabase } from "react-icons/fa";
+import { FaReact, FaPython, FaRust } from "react-icons/fa";
 import {
     SiNextdotjs,
     SiMongodb,

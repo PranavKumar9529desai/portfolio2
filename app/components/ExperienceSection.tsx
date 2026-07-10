@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { experiences } from "../data/experience";
 
 const companyLogos: Record<string, string> = {
@@ -23,11 +24,15 @@ export default function ExperienceSection() {
                   <h3 className="text-lg md:text-xl font-medium flex items-center gap-2.5">
                     {companyLogos[exp.company] && (
                       <span className="shrink-0 rounded-md overflow-hidden bg-background-secondary flex items-center justify-center px-2.5" style={{ height: '30px' }}>
-                        <img
+                        <Image
                           src={companyLogos[exp.company]}
                           alt={`${exp.company} logo`}
-                          style={{ maxHeight: '18px', width: 'auto' }}
-                          className="block"
+                          width={0}
+                          height={0}
+                          sizes="80px"
+                          className="block w-auto"
+                          style={{ height: '18px', width: 'auto' }}
+                          unoptimized
                         />
                       </span>
                     )}
