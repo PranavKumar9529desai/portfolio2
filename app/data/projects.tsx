@@ -1,5 +1,5 @@
 import { JSX } from "react";
-import { FaReact, FaPython, FaRust } from "react-icons/fa";
+import { FaReact, FaPython, FaRust, FaDatabase } from "react-icons/fa";
 import {
     SiNextdotjs,
     SiMongodb,
@@ -15,6 +15,8 @@ import {
     SiCplusplus,
     SiOpenai,
     SiScikitlearn,
+    SiPostgresql,
+    SiReactquery,
 } from "react-icons/si";
 import { TbBrandOpenai } from "react-icons/tb";
 
@@ -89,6 +91,31 @@ export const notableProjects: Project[] = [
         impact: "Serverless Edge • Turborepo Monorepo • Sub-second Latency",
         previewImage:
             "https://images.unsplash.com/photo-1611605698335-8b1569810432?q=80&w=2070&auto=format&fit=crop",
+    },
+    {
+        title: "Rahi",
+        link: "https://github.com/PranavKumar9529desai/Rahi",
+        hostedUrl: "https://rahi.store",
+        slug: "rahi",
+        description:
+            "A full-featured antique jewellery e-commerce platform with role-based dashboards, product management, order tracking, and a seamless shopping experience.",
+        stackIcons: [
+            <SiNextdotjs key="nextjs" title="Next.js 16" />,
+            <SiHono key="hono" title="Hono" />,
+            <SiPostgresql key="postgres" title="PostgreSQL" />,
+            <SiReactquery key="tanstack" title="TanStack Query" />,
+            <SiTailwindcss key="tailwind" title="Tailwind CSS v4" />,
+            <SiShadcnui key="shadcn" title="Shadcn/UI" />,
+            <SiTypescript key="ts" title="TypeScript" />,
+        ],
+        features: [
+            "Role-based dashboards for admin, staff, and customers with product, category, and order management",
+            "Full shopping experience — product catalog, cart, checkout, and order tracking with real-time updates",
+            "Image management with Cloudinary, Google Maps integration, and Better Auth authentication",
+        ],
+        impact: "Turborepo Monorepo • Drizzle ORM • Hono Backend",
+        previewImage:
+            "https://images.unsplash.com/photo-1515562141589-6773cd0d5226?q=80&w=2070&auto=format&fit=crop",
     },
     {
         title: "GymNavigator",
