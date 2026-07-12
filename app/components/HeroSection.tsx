@@ -38,7 +38,7 @@ export default function HeroSection() {
                 Projects
               </a>
               <a
-                href="/resume"
+                href="/resume.pdf"
                 className="text-primary hover:text-primary-hover transition-colors"
               >
                 Resume

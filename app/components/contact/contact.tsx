@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import FormInput from "@/app/components/Input";
 import { ChevronRight } from "lucide-react";
-import { submitContactForm } from "./contact.action";
+
 
 const DrawOutlineButton = ({
   children,
@@ -41,8 +41,19 @@ export default function Contact() {
 
     try {
       const formData = new FormData(form);
+      const data = {
+        name: formData.get("name"),
+        email: formData.get("email"),
+        message: formData.get("message"),
+      };
 
-      const response = await submitContactForm(formData);
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+
+      const response = await res.json();
 
       if (response.success) {
         setFormStatus({

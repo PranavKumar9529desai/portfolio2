@@ -1,8 +1,7 @@
-import Image from "next/image";
 import { experiences } from "../data/experience";
 
 const companyLogos: Record<string, string> = {
-  Accenture: "/accenture_logo.webp",
+  Accenture: "/acc.svg",
   "Astuto.ai": "/astuto.svg",
   Vulncon: "/vulncon.webp",
 };
@@ -23,16 +22,12 @@ export default function ExperienceSection() {
                 <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2">
                   <h3 className="text-lg md:text-xl font-medium flex items-center gap-2.5">
                     {companyLogos[exp.company] && (
-                      <span className="shrink-0 rounded-md overflow-hidden bg-background-secondary flex items-center justify-center px-2.5" style={{ height: '30px' }}>
-                        <Image
+                      <span className="shrink-0 rounded-md overflow-hidden bg-background-secondary flex items-center justify-center px-3" style={{ height: '32px', minWidth: '60px' }}>
+                        <img
                           src={companyLogos[exp.company]}
                           alt={`${exp.company} logo`}
-                          width={0}
-                          height={0}
-                          sizes="80px"
-                          className="block w-auto"
-                          style={{ height: '18px', width: 'auto' }}
-                          unoptimized
+                          className="block max-h-full w-auto object-contain"
+                          style={{ maxHeight: '20px', width: 'auto' }}
                         />
                       </span>
                     )}

@@ -17,6 +17,7 @@ import {
     SiScikitlearn,
     SiPostgresql,
     SiReactquery,
+    SiTauri,
 } from "react-icons/si";
 import { TbBrandOpenai } from "react-icons/tb";
 
@@ -144,6 +145,29 @@ export const notableProjects: Project[] = [
         impact: "2 Gyms Onboarded • 150 Daily Active Users • Live in Mumbai",
         previewImage:
             "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop",
+    },
+    {
+        title: "Basalt",
+        link: "https://github.com/PranavKumar9529desai/Basalt",
+        slug: "basalt",
+        description:
+            "An Obsidian-class desktop Markdown workspace built with Tauri (Rust) and React — targeting sub-16ms input latency, sub-800ms TTI, and sub-150ms search across 5,000+ notes.",
+        stackIcons: [
+            <FaRust key="rust" title="Rust" />,
+            <FaReact key="react" title="React 19" />,
+            <SiTypescript key="ts" title="TypeScript" />,
+            <SiTauri key="tauri" title="Tauri" />,
+            <SiTailwindcss key="tailwind" title="TailwindCSS" />,
+            <SiShadcnui key="shadcn" title="Shadcn/UI" />,
+            <SiVite key="vite" title="Vite" />,
+        ],
+        features: [
+            "Full-text search powered by Tantivy with fuzzy matching via Nucleo — search across thousands of notes in milliseconds",
+            "Vault indexing engine with filesystem watching, metadata extraction, and link graph construction — all in Rust",
+            "Tab system with drag-and-drop, per-pane editor instances, command palette, and a centralized keyboard shortcut system",
+        ],
+        impact: "11 ADRs • 6 Rust Crates • Obsidian-Class Performance",
+        previewImage: "/basalt.png",
     },
 ];
 

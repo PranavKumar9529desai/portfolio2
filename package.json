@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "next start",
+    "http://localhost:3000/projects/basaltstart": "next start",
     "lint": "next lint",
     "pages:build": "next-on-pages",
     "pages:deploy": "pnpm run pages:build && wrangler pages deploy .vercel/output/static"

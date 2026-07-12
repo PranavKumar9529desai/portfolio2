@@ -1,0 +1,200 @@
+%-------------------------
+% Resume in Latex
+% Author : Pranavkumar Desai
+% Based off of: https://github.com/harshibar/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\usepackage{fontawesome5}
+
+\usepackage[scale=0.90,lf]{FiraMono}
+
+\definecolor{light-grey}{gray}{0.83}
+\definecolor{dark-grey}{gray}{0.3}
+\definecolor{text-grey}{gray}{.08}
+
+\DeclareRobustCommand{\ebseries}{\fontseries{eb}\selectfont}
+\DeclareTextFontCommand{\texteb}{\ebseries}
+
+\usepackage{contour}
+\usepackage[normalem]{ulem}
+\renewcommand{\ULdepth}{1.8pt}
+\contourlength{0.8pt}
+\newcommand{\myuline}[1]{%
+  \uline{\phantom{#1}}%
+  \llap{\contour{white}{#1}}%
+}
+
+\usepackage{tgheros}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage[T1]{fontenc}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{0in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat {\section}{
+    \bfseries \vspace{0pt} \raggedright \normalsize
+}{}{0em}{}[\color{light-grey} {\titlerule[1.5pt]} \vspace{-4pt}]
+\titlespacing*{\section}{0em}{0.6em}{0.75em}
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-2pt}}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & {\color{dark-grey}\small #2}\vspace{1pt}\\
+      \textit{#3} & {\color{dark-grey} \small #4}\\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      #1 & {\color{dark-grey}\small #2} \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+
+\color{text-grey}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\LARGE Pranavkumar Desai} \\ \vspace{3pt}
+    \small \faIcon{phone}~\texttt{9529939764} \hspace{1pt} $|$
+    \hspace{1pt} \faIcon{envelope}~\href{mailto:dpranv7745@gmail.com}{\texttt{dpranv7745@gmail.com}} \hspace{1pt} $|$
+    \hspace{1pt} \faIcon{github}~\href{https://github.com/PranavKumar9529desai}{\texttt{github.com/PranavKumar9529desai}} \\[2pt]
+    \faIcon{linkedin}~\href{https://linkedin.com/in/pranavkumar-desai-b27b8a252}{\texttt{pranavkumar-desai}} \hspace{1pt} $|$
+    \hspace{1pt} \faIcon{globe}~\href{https://pranavkd.in}{\texttt{pranavkd.in}} \hspace{1pt} $|$
+    \hspace{1pt} \faIcon{map-marker-alt}~\texttt{Pune, Maharashtra}
+    \\ \vspace{-3pt}
+\end{center}
+
+\section{Summary}
+\small
+4th year CS student with professional full-stack, AI, and systems programming experience. Passionate about building production-grade applications across modern web, edge computing, cloud infrastructure, and developer tooling.
+
+\section{Experience}
+\resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Accenture}{Pune, India}
+      {Software Engineer}{May 2026 -- Present}
+      \resumeItemListStart
+        \resumeItem{\textbf{Engineer} enterprise backend services using \textbf{Java} and \textbf{Spring Boot}, delivering scalable \textbf{RESTful APIs} and microservices}
+        \resumeItem{\textbf{Design} API contracts and schemas across \textbf{Agile} teams for consistent system communication}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Astuto.ai}{Remote}
+      {Full Stack Engineer Intern}{Mar 2026 -- May 2026}
+      \resumeItemListStart
+        \resumeItem{\textbf{Architected} backend APIs with \textbf{FastAPI} on \textbf{AWS} and developed responsive \textbf{Next.js} frontend features}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Vulncon}{Remote}
+      {Frontend Developer Intern}{Jan 2025 -- Jul 2025}
+      \resumeItemListStart
+        \resumeItem{\textbf{Spearheaded} migration from legacy CSS to \textbf{Tailwind CSS}, reducing stylesheet size by 40\%; \textbf{built} pixel-perfect interfaces from \textbf{Figma} designs}
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Projects}
+\resumeSubHeadingListStart
+
+    \resumeProjectHeading
+      {\textbf{Basalt} -- Obsidian-Class Desktop MD Workspace}
+      {\href{https://github.com/PranavKumar9529desai/Basalt}{\faIcon{github}~Code}}
+      \resumeItemListStart
+        \resumeItem{\textbf{Engineered} a high-performance desktop Markdown workspace with \textbf{Tauri} (\textbf{Rust} + React), achieving sub-16ms latency and sub-150ms full-text search across 5,000+ notes via \textbf{Tantivy} + \textbf{Nucleo}}
+        \resumeItem{\textbf{Architected} 6 modular \textbf{Rust} crates (parsing, graph, search, vault, WASM, types) with 11 ADRs}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Cropia} -- AI-Powered Crop Health Detection}
+      {\href{https://cropia-phi.vercel.app/}{\faIcon{external-link-alt}~Demo} ~$|$~ \href{https://github.com/PranavKumar9529desai/Cropia}{\faIcon{github}~Code}}
+      \resumeItemListStart
+        \resumeItem{\textbf{Built} an AI-powered agricultural platform using \textbf{Google Gemini 2.5 Flash Lite} for offline-first disease detection; \textbf{Astro} landing page achieved 100/100 PageSpeed}
+        \resumeItem{\textbf{Developed} a government analytics dashboard with interactive geospatial maps and a Regional Analysis Agent for real-time outbreak alerts}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Rahi} -- Antique Jewellery E-Commerce}
+      {\href{https://rahi.store}{\faIcon{external-link-alt}~Demo} ~$|$~ \href{https://github.com/PranavKumar9529desai/Rahi}{\faIcon{github}~Code}}
+      \resumeItemListStart
+        \resumeItem{\textbf{Engineered} a full-featured e-commerce platform with 3 role-based dashboards using \textbf{Next.js 16} + \textbf{Hono}, backed by \textbf{Drizzle ORM} and \textbf{PostgreSQL}}
+        \resumeItem{\textbf{Implemented} product management, order tracking, and secure auth (\textbf{Better Auth}) with \textbf{Cloudinary} image management}
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Skills}
+\begin{itemize}[leftmargin=0in, label={}]
+  \small{\item{
+     \textbf{Languages} {: Python, TypeScript, Java, Rust, C} \qquad \textbf{Frontend} {: React 19, Next.js 16, Astro, Tailwind CSS, Shadcn/UI, TanStack Query, Zustand}\vspace{1pt} \\
+     \textbf{Backend}  {: Hono, FastAPI, Spring Boot, REST APIs, Microservices, Drizzle ORM, Prisma} \qquad \textbf{Cloud \& DevOps} {: AWS (EC2, S3, Lambda), Cloudflare Workers, Docker, CI/CD, Turborepo, Vercel}\vspace{1pt} \\
+     \textbf{Databases} {: PostgreSQL, MongoDB, Cloudflare D1} \qquad \textbf{Tools} {: Git, Linux, Tauri, Figma, Zod}
+  }}
+\end{itemize}
+
+\section{Education}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Lovely Professional University}{Phagwara, Punjab}
+      {B.Tech in Computer Science}{Expected June 2026}
+      \resumeItemListStart
+        \resumeItem{\textbf{Coursework:} Data Structures \& Algorithms, Operating Systems, Database Systems, Computer Networks}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\end{document}
