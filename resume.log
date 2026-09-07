@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.7.11)  13 JUL 2026 01:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.7.11)  7 SEP 2026 12:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -294,27 +294,6 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \TX@ftn=\toks25
 )
 (/usr/share/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
-(/usr/share/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty
-(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2026-01-19 L3 programming layer (loader) 
-
-(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count300
-))
-Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
-
-(/usr/share/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
-)
-(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2025-10-09 L3 Experimental document command parser
-)
-(/usr/share/texmf-dist/tex/latex/fontawesome5/fontawesome5-generic-helper.sty
-Package: fontawesome5-generic-helper 2022/05/02 v5.15.4 non-uTeX helper for fon
-tawesome5
-
-(/usr/share/texmf-dist/tex/latex/fontawesome5/fontawesome5-mapping.def)))
 (/usr/share/texmf-dist/tex/latex/fira/FiraMono.sty
 Package: FiraMono 2022/09/17 (Bob Tennent and autoinst) Style file for Fira Mon
 o fonts.
@@ -334,7 +313,7 @@ Package: xkeyval 2025/11/04 v2.10 package option processing (HA)
 \XKV@tempa@toks=\toks27
 \XKV@tempb@toks=\toks28
 )
-\XKV@depth=\count301
+\XKV@depth=\count300
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texmf-dist/tex/latex/base/textcomp.sty
@@ -374,7 +353,7 @@ File: pdftex.cnt 2004/11/18 v2.14 Print contoured text (HH, MH)
 \UL@skip=\skip73
 \UL@hook=\toks29
 \UL@height=\dimen167
-\UL@pe=\count302
+\UL@pe=\count301
 \UL@pixel=\dimen168
 \ULC@box=\box59
 Package: ulem 2019/11/18
@@ -390,28 +369,31 @@ LaTeX Font Info:    Trying to load font information for T1+qhv on input line 11
 
 (/usr/share/texmf-dist/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
-)) (./resume.aux)
+))
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count302
+) (./resume.aux)
 \openout1 = `resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 107.
+LaTeX Font Info:    ... okay on input line 107.
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count303
@@ -426,19 +408,15 @@ LaTeX Font Info:    ... okay on input line 108.
 \makeMPintoPDFobject=\count308
 \everyMPtoPDFconversion=\toks31
 )
-Package hyperref Info: Link coloring OFF on input line 108.
+Package hyperref Info: Link coloring OFF on input line 107.
  (./resume.out) (./resume.out)
 \@outlinefile=\write3
 \openout3 = `resume.out'.
 
 \c@mv@tabular=\count309
 \c@mv@boldtabular=\count310
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 112.
-
-(/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
 LaTeX Font Info:    Trying to load font information for T1+FiraMono-TLF on inpu
-t line 112.
+t line 111.
 
 (/usr/share/texmf-dist/tex/latex/fira/T1FiraMono-TLF.fd
 File: T1FiraMono-TLF.fd 2019/10/10 (autoinst) Font definitions for T1/FiraMono-
@@ -447,33 +425,21 @@ TLF.
 LaTeX Font Info:    Font shape `T1/FiraMono-TLF/m/n' in size <10> not available
 
 (Font)              Font shape `T1/FiraMono-TLF/regular/n' tried instead on inp
-ut line 112.
+ut line 111.
 LaTeX Font Info:    Font shape `T1/FiraMono-TLF/regular/n' will be
-(Font)              scaled to size 8.99994pt on input line 112.
+(Font)              scaled to size 8.99994pt on input line 111.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 112.
+(Font)              <7> on input line 111.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 112.
+(Font)              <5> on input line 111.
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 11
-2.
+1.
 
 (/usr/share/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 113.
-
-(/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 114.
-
-(/usr/share/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
-LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not 
-available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 114.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 132.
+(Font)              <6> on input line 131.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -483,10 +449,8 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts
-/enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fontawesome
-5/fa5free2.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_i3ioen.enc}{/usr
-/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/usr/share/texmf-d
-ist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}] (./resume.aux)
+/enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_i3
+ioen.enc}] (./resume.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -495,24 +459,22 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: A80218D5A249F816DABB81718C8F6CBC;415.
  ) 
 Here is how much of TeX's memory you used:
- 15095 strings out of 469515
- 258930 string characters out of 5470807
- 679149 words of memory out of 5000000
- 43539 multiletter control sequences out of 15000+600000
- 651904 words of font info for 60 fonts, out of 8000000 for 9000
+ 11924 strings out of 469515
+ 188167 string characters out of 5470807
+ 635188 words of memory out of 5000000
+ 40403 multiletter control sequences out of 15000+600000
+ 650967 words of font info for 57 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,11n,79p,306b,496s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,291b,496s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/fira/FiraMono-Regular.pfb></usr/sha
-re/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></
-usr/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb
-></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts
-/type1/public/tex-gyre/qhvb.pfb></usr/share/texmf-dist/fonts/type1/public/tex-g
-yre/qhvr.pfb></usr/share/texmf-dist/fonts/type1/public/tex-gyre/qhvri.pfb>
-Output written on resume.pdf (1 page, 160178 bytes).
+re/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/pub
+lic/tex-gyre/qhvb.pfb></usr/share/texmf-dist/fonts/type1/public/tex-gyre/qhvr.p
+fb></usr/share/texmf-dist/fonts/type1/public/tex-gyre/qhvri.pfb>
+Output written on resume.pdf (1 page, 119769 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
+ 77 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  7 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

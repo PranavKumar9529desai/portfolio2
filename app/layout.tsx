@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Pranavkumar Desai",
-  description: "4th year CS student building full-stack products with AI, edge computing, and modern web technologies.",
+  description: "Software Engineer and Computer Science graduate building full-stack products with AI, edge computing, and modern web technologies.",
   icons: {
     icon: "/icon.svg",
   }

@@ -1,12 +1,12 @@
 # Pranavkumar Desai  
 
-[Portfolio](https://pranavkumar.dev) | [GitHub](https://github.com/PranavKumar9529desai) | [LinkedIn](https://linkedin.com/in/pranavkumar-desai-b27b8a252) | [Email](mailto:dpranv7745@gmail.com)  
+[Portfolio](https://pranavkumar.dev) | [GitHub](https://github.com/PranavKumar9529desai) | [LinkedIn](https://linkedin.com/in/pranavkumar-desai-b27b8a252) | [Email](mailto:dpranav7745@gmail.com)  
 
 ---
 
 ## 👋 About Me  
 
-Hi, I'm **Pranavkumar Desai**, a 4th-year Computer Science student at Lovely Professional University. I'm passionate about full-stack development, AI, edge computing, and clean architecture. I love exploring new stacks and building production-grade applications.
+Hi, I'm **Pranavkumar Desai**, a Computer Science graduate from Lovely Professional University (B.Tech, June 2026), now a Software Engineer at Accenture. I'm passionate about full-stack development, AI, edge computing, and clean architecture. I love exploring new stacks and building production-grade applications.
 
 ---
 
@@ -47,4 +47,4 @@ A CLI tool for converting voice recordings to text using speech-to-text transcri
 - **GitHub**: [github.com/PranavKumar9529desai](https://github.com/PranavKumar9529desai)  
 - **LinkedIn**: [linkedin.com/in/pranavkumar-desai-b27b8a252](https://www.linkedin.com/in/pranavkumar-desai-b27b8a252/)  
 - **Twitter/X**: [x.com/pranavdesa1549](https://x.com/pranavdesa1549)  
-- **Email**: [dpranv7745@gmail.com](mailto:dpranv7745@gmail.com)  
+- **Email**: [dpranav7745@gmail.com](mailto:dpranav7745@gmail.com)  

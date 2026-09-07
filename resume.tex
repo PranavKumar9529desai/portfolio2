@@ -20,7 +20,6 @@
 \usepackage{tabularx}
 \input{glyphtounicode}
 
-\usepackage{fontawesome5}
 
 \usepackage[scale=0.90,lf]{FiraMono}
 
@@ -64,7 +63,7 @@
 \titleformat {\section}{
     \bfseries \vspace{0pt} \raggedright \normalsize
 }{}{0em}{}[\color{light-grey} {\titlerule[1.5pt]} \vspace{-4pt}]
-\titlespacing*{\section}{0em}{0.6em}{0.75em}
+\titlespacing*{\section}{0em}{0.5em}{0.6em}
 
 \pdfgentounicode=1
 
@@ -100,7 +99,7 @@
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}\setlength{\itemsep}{-1pt}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
 
 \color{text-grey}
@@ -109,18 +108,18 @@
 
 \begin{center}
     \textbf{\LARGE Pranavkumar Desai} \\ \vspace{3pt}
-    \small \faIcon{phone}~\texttt{9529939764} \hspace{1pt} $|$
-    \hspace{1pt} \faIcon{envelope}~\href{mailto:dpranv7745@gmail.com}{\texttt{dpranv7745@gmail.com}} \hspace{1pt} $|$
-    \hspace{1pt} \faIcon{github}~\href{https://github.com/PranavKumar9529desai}{\texttt{github.com/PranavKumar9529desai}} \\[2pt]
-    \faIcon{linkedin}~\href{https://linkedin.com/in/pranavkumar-desai-b27b8a252}{\texttt{pranavkumar-desai}} \hspace{1pt} $|$
-    \hspace{1pt} \faIcon{globe}~\href{https://pranavkd.in}{\texttt{pranavkd.in}} \hspace{1pt} $|$
-    \hspace{1pt} \faIcon{map-marker-alt}~\texttt{Pune, Maharashtra}
+    \small \texttt{9529939764} \hspace{1pt} $|$
+    \hspace{1pt} \href{mailto:dpranav7745@gmail.com}{\texttt{dpranav7745@gmail.com}} \hspace{1pt} $|$
+    \hspace{1pt} \href{https://github.com/PranavKumar9529desai}{\texttt{github.com/PranavKumar9529desai}} \\[2pt]
+    \href{https://linkedin.com/in/pranavkumar-desai-b27b8a252}{\texttt{linkedin.com/in/pranavkumar-desai}} \hspace{1pt} $|$
+    \hspace{1pt} \href{https://pranavkd.in}{\texttt{pranavkd.in}} \hspace{1pt} $|$
+    \hspace{1pt} \texttt{Pune, Maharashtra}
     \\ \vspace{-3pt}
 \end{center}
 
 \section{Summary}
 \small
-4th year CS student with professional GenAI, full-stack, and systems programming experience. Passionate about building production-grade AI applications with LLMs, RAG, and agentic workflows across modern web, edge computing, and cloud infrastructure.
+Computer Science graduate (B.Tech, June 2026) with professional GenAI, full-stack, and systems programming experience. Passionate about building production-grade AI applications with LLMs, RAG, and agentic workflows across web, edge, and cloud infrastructure.
 
 \section{Experience}
 \resumeSubHeadingListStart
@@ -129,8 +128,8 @@
       {Accenture}{Pune, India}
       {Software Engineer}{May 2026 -- Present}
       \resumeItemListStart
-        \resumeItem{Develop enterprise backend services with \textbf{Java} and \textbf{Spring Boot}, building scalable \textbf{RESTful APIs} and microservices}
-        \resumeItem{Design API contracts and schemas across \textbf{Agile} teams for consistent system communication}
+        \resumeItem{Develop and ship enterprise backend services with \textbf{Java} and \textbf{Spring Boot}, designing scalable \textbf{RESTful APIs} and microservices}
+        \resumeItem{Own API contract and schema design across \textbf{Agile} teams for consistent system communication}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -138,7 +137,7 @@
       {Full Stack Engineer Intern}{Mar 2026 -- May 2026}
       \resumeItemListStart
         \resumeItem{Architected backend APIs with \textbf{FastAPI} on \textbf{AWS} and built responsive \textbf{Next.js} frontend features}
-        \resumeItem{Integrated \textbf{ServiceNow} with Onlens to auto-assign cloud cost optimization tickets to engineering teams.}
+        \resumeItem{Automated cloud cost-optimization ticket routing by integrating \textbf{ServiceNow} with Onlens, replacing manual assignment to engineering teams}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -155,7 +154,7 @@
 
     \resumeProjectHeading
       {\textbf{Basalt} -- Offline-First Markdown Knowledge Base}
-      {\href{https://github.com/PranavKumar9529desai/Basalt}{\faIcon{github}~Code}}
+      {\href{https://github.com/PranavKumar9529desai/Basalt}{\texttt{Code}}}
       \resumeItemListStart
         \resumeItem{Engineered a desktop Markdown knowledge base with \textbf{Tauri} (\textbf{Rust} + React), achieving sub-16ms rendering and sub-150ms full-text search across 5,000+ notes with \textbf{Tantivy} + \textbf{Nucleo}}
         \resumeItem{Designed an interactive graph for real-time exploration of relationships across 5,000+ notes}
@@ -163,7 +162,7 @@
 
     \resumeProjectHeading
       {\textbf{Cropia} -- AI-Powered Crop Health Detection}
-      {\href{https://cropia-phi.vercel.app/}{\faIcon{external-link-alt}~Demo} ~$|$~ \href{https://github.com/PranavKumar9529desai/Cropia}{\faIcon{github}~Code}}
+      {\href{https://cropia-phi.vercel.app/}{\texttt{Demo}} ~$|$~ \href{https://github.com/PranavKumar9529desai/Cropia}{\texttt{Code}}}
       \resumeItemListStart
         \resumeItem{Built a GenAI-powered agricultural platform using \textbf{Google Gemini 2.5 Flash Lite} for offline-first disease detection; \textbf{Astro} landing page scored 100/100 PageSpeed}
         \resumeItem{Built a government analytics dashboard with interactive geospatial maps and an AI-powered Regional Analysis Agent for real-time outbreak alerts}
@@ -171,7 +170,7 @@
 
     \resumeProjectHeading
       {\textbf{Rahi} -- Antique Jewellery E-Commerce}
-      {\href{https://rahi.store}{\faIcon{external-link-alt}~Demo} ~$|$~ \href{https://github.com/PranavKumar9529desai/Rahi}{\faIcon{github}~Code}}
+      {\href{https://rahi.store}{\texttt{Demo}} ~$|$~ \href{https://github.com/PranavKumar9529desai/Rahi}{\texttt{Code}}}
       \resumeItemListStart
         \resumeItem{Engineered a full-featured e-commerce platform with 3 role-based dashboards using \textbf{Next.js 16} + \textbf{Hono}, backed by \textbf{Drizzle ORM} and \textbf{PostgreSQL}}
         \resumeItem{Built product management, order tracking, and secure auth (\textbf{Better Auth}) with \textbf{Cloudinary} image management}
@@ -184,11 +183,11 @@
   \small{\item{
       \textbf{Languages} {: Python, TypeScript, Java, Rust, C}\vspace{3pt} \\
      \textbf{Frontend} {: React 19, Next.js 16, Astro, Tailwind CSS, Shadcn/UI, TanStack Query, Zustand}\vspace{3pt} \\
-     \textbf{Backend}  {: Hono, FastAPI, Spring Boot, REST APIs, Microservices, Drizzle ORM, Prisma}\vspace{3pt} \\
+     \textbf{Backend}  {: Hono, FastAPI, Spring Boot, REST APIs, Microservices, Drizzle ORM, Prisma, Zod}\vspace{3pt} \\
       \textbf{Cloud \& DevOps} {: AWS (EC2, S3, Lambda), Cloudflare Workers, Docker, CI/CD, Turborepo, Vercel}\vspace{3pt} \\
      \textbf{GenAI}    {: LLMs, RAG, LangChain, Prompt Engineering, Vector Databases, Google Gemini}\vspace{3pt} \\
      \textbf{Databases} {: PostgreSQL, MongoDB, Cloudflare D1}\vspace{3pt} \\
-     \textbf{Tools}    {: Git, Linux, Tauri, Figma, Zod}
+     \textbf{Tools}    {: Git, Linux, Tauri, Figma}
   }}
 \end{itemize}
 
@@ -198,14 +197,12 @@
       {Lovely Professional University}{Phagwara, Punjab}
       {B.Tech in Computer Science}{June 2026}
       \resumeItemListStart
-        \resumeItem{\textbf{Coursework:} Data Structures \& Algorithms, Machine Learning, LLMs \& LangChain, RAG Systems, Database Systems, Computer Networks}
+        \resumeItem{\textbf{CGPA:} 8+/10 $|$ \textbf{Coursework:} Data Structures \& Algorithms, Machine Learning, LLMs \& LangChain, RAG Systems, Database Systems, Computer Networks}
       \resumeItemListEnd
 
     \resumeSubheading
       {Brilliant School of Science \& Engineering}{Karad, Maharashtra}
       {XII -- Science}{June 2021}
-      \resumeItemListStart
-      \resumeItemListEnd
 \resumeSubHeadingListEnd
 
 \end{document}

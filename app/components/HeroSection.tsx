@@ -21,10 +21,10 @@ export default function HeroSection() {
                 <span className="inline-block animate-wave">👋</span>
               </h1>
               <p className="text-base md:text-lg text-foreground-secondary leading-relaxed text-center md:text-left">
-                4th year Computer Science student at Lovely Professional
-                University. Building AI-powered platforms and full-stack
-                products — from crop health detection to tweet scheduling
-                and gym management.
+                Software Engineer at Accenture. Computer Science graduate
+                (B.Tech, June 2026) — building AI-powered platforms and
+                full-stack products, from crop health detection to tweet
+                scheduling and gym management.
               </p>
             </div>
 

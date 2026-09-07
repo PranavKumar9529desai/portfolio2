@@ -1,6 +1,6 @@
 # Pranavkumar Desai
 
-I am Pranavkumar, a 4th year Computer Science student at Lovely Professional University.
+I am Pranavkumar, a Computer Science graduate from Lovely Professional University (B.Tech, June 2026), now a Software Engineer at Accenture.
 Full-stack developer, AI enthusiast, and die-hard Linux user.
 
 ## Social Links
@@ -8,7 +8,7 @@ Full-stack developer, AI enthusiast, and die-hard Linux user.
 - LinkedIn: https://www.linkedin.com/in/pranavkumar-desai-b27b8a252/
 - Twitter/X: https://x.com/pranavdesa1549
 - Portfolio: https://pranavkumar.dev
-- Email: dpranv7745@gmail.com
+- Email: dpranav7745@gmail.com
 
 ---
 

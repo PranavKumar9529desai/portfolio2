@@ -20,7 +20,7 @@ const socials = [
     title: "Twitter",
   },
   {
-    href: "mailto:dpranv7745@gmail.com",
+    href: "mailto:dpranav7745@gmail.com",
     icon: FiMail,
     title: "Email",
   },
