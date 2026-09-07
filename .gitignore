@@ -36,8 +36,11 @@ yarn-error.log*
 
 # vercel
 .vercel
-.
 # typescript
 *.tsbuildinfo
 next-env.d.ts
 .wrangler
+# latex artifacts
+resume.aux
+resume.log
+resume.out
